@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+
+}
+
+.header{
+    width: 100%;
+    background-color: #31343d;
+    position: relative;
+    padding: 15px 0 15px;
+}
+
+h1 {
+    background-color: #92cccd;
+    color: #31343d;
+    text-indent: 60px;
+    font-size: 40px;
+    padding: 10px 20px 10px;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links{
+    padding: 20px 100px 20px 50px;
+}
+
+.nav-links li {
+    display:inline-block;
+    margin: 0 10px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #92cccd;
+    padding: 5px 0;
+    border-bottom: 3px solid #92cccd;
+    font-size: 20px;
+}
+
+.banner{
+    height: 180px;
+    width: 100%;
+}
+
+section{
+    display:flex;
+    padding: 30px;
+}
+
+
+h2 {
+    display: inline-block;
+    text-align: right;
+    font-size: 40px;
+    padding-right: 30px;
+    color: #445876;
+}
+.aboutme h2 {
+    text-indent: 125px;
+}
+.aboutme p {
+    padding-right: 90px;
+    padding-left: 40px;
+    font-size: 18px;
+    line-height: 1.5;
+    border-left: 3px solid #445876;
+}
+
+
+
+/* Works Section */
+.works h2 {
+    text-indent: 120px;
+}
+
+.work-images {
+    padding-left: 30px;
+    border-left: 3px solid #445876;
+    position: relative;
+    width: 1000px;
+}
+
+.surf-report img {
+    position: relative;
+    width: 1000px;
+    height: 540px;
+    background-size: cover;
+    border: 5px solid #92cccd;
+    opacity: 0.7;
+    display:flex;
+}
+
+.caption {
+    padding: 5px 10px 5px 15px;
+    background-color: #92cccd;
+    position: absolute;
+    top: 450px;
+    color:#445876;
+}
+
+.caption h3 {
+    font-size: 25px;
+}
+
+.caption p {
+    font-size: 10px;
+}
+
+.grid {
+    display: grid;
+    width: 1000px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+.images-grid img {
+    position: relative;
+    width: 500px;
+    height: 200px;
+    background-size: cover;
+    border: 5px solid #92cccd;
+    display:flex;
+}
+
+.caption1 {
+    position:absolute;
+}
+
+/* Contactme section */
+
+
+.contact-me h2{
+    text-indent: 90px;
+    border-right: 3px solid #445876;
+}
+.contact-links {
+    display:inline-flex;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 100px;
+}
+
+
+.contact-links li {
+    padding: 15px;
+    list-style: none;
+    margin: 0 18px;
+}
+
+.contact-links li a {
+    text-decoration: none;
+    padding: 5px 0;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    border-bottom: 3px solid #445876;
+}
